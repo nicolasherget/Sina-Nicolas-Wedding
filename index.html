@@ -68,7 +68,13 @@
         .radio-group {
             display: flex;
             justify-content: center;
+            align-items: center;
             gap: 10px;
+            flex-wrap: nowrap;
+            white-space: nowrap;
+        }
+        input[type="radio"] {
+            transform: scale(1.2);
         }
         input, button {
             padding: 10px;
@@ -104,22 +110,22 @@
                 <p>
                     Teilnahme an der Hochzeit am 25.07.:
                     <div class="radio-group">
-                        <input type="radio" name="hochzeit" value="ja"> Ja
-                        <input type="radio" name="hochzeit" value="nein"> Nein
+                        <label><input type="radio" name="hochzeit" value="ja"> Ja</label>
+                        <label><input type="radio" name="hochzeit" value="nein"> Nein</label>
                     </div>
                 </p>
                 <p>
                     Teilnahme am Get Together (Pizza Abend) am 24.07.:
                     <div class="radio-group">
-                        <input type="radio" name="pizza_abend" value="ja"> Ja
-                        <input type="radio" name="pizza_abend" value="nein"> Nein
+                        <label><input type="radio" name="pizza_abend" value="ja"> Ja</label>
+                        <label><input type="radio" name="pizza_abend" value="nein"> Nein</label>
                     </div>
                 </p>
                 <p>
                     Teilnahme am Brunch am 26.07.:
                     <div class="radio-group">
-                        <input type="radio" name="brunch" value="ja"> Ja
-                        <input type="radio" name="brunch" value="nein"> Nein
+                        <label><input type="radio" name="brunch" value="ja"> Ja</label>
+                        <label><input type="radio" name="brunch" value="nein"> Nein</label>
                     </div>
                 </p>
                 <button type="submit">Anmelden</button>
