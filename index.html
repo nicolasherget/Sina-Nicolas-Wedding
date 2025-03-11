@@ -3,134 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unsere Hochzeit</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background: url('https://i.postimg.cc/yNhrtfNp/1000033427.jpg') no-repeat center center fixed;
-            background-size: cover;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: rgba(233, 30, 99, 0.8);
-            color: white;
-            padding: 20px;
-            font-size: 24px;
-        }
-        .menu {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
-        }
-        .menu-button {
-            background: none;
-            border: none;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        .dropdown {
-            display: none;
-            position: absolute;
-            background: white;
-            box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
-            border-radius: 5px;
-            padding: 5px;
-            margin-top: 5px;
-        }
-        .menu:hover .dropdown {
-            display: block;
-        }
-        .dropdown a {
-            display: block;
-            padding: 5px;
-            text-decoration: none;
-            color: #333;
-        }
-        section {
-            padding: 20px;
-        }
-        .form-container {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-            display: inline-block;
-            margin: 10px;
-            opacity: 0.9;
-        }
-        .radio-group {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: nowrap;
-            white-space: nowrap;
-        }
-        input[type="radio"] {
-            transform: scale(1.2);
-        }
-        input, button {
-            padding: 10px;
-            margin: 5px;
-            width: 80%;
-        }
-    </style>
+    <title>Corte Marzago | Events, Retreats & Hochzeiten am Gardasee</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="menu">
-        <button class="menu-button">Menü ▼</button>
-        <div class="dropdown">
-            <a href="#">Startseite</a>
-            <a href="https://maps.app.goo.gl/LGMzhLX4i1DNoFdr6" target="_blank">Anfahrt</a>
-        </div>
-    </div>
-    
-    <header>Unsere Hochzeit - Sina & Nicolas</header>
-    
-    <section>
-        <h1>Willkommen zu unserer Hochzeit!</h1>
-        <p>Wir freuen uns, diesen besonderen Tag mit euch zu feiern.</p>
-        <p><strong>Datum:</strong> 24.-26 Juli 2026</p>
-        <p><strong>Ort:</strong> Corte Marzago, Valeggio Sul Mincio</p>
+    <header>
+        <h1>Corte Marzago</h1>
+        <nav>
+            <ul>
+                <li><a href="#ueber-uns">Über uns</a></li>
+                <li><a href="#retreats">Retreats</a></li>
+                <li><a href="#exklusiv-miete">Exklusiv-Miete</a></li>
+                <li><a href="#hochzeiten">Hochzeiten</a></li>
+                <li><a href="#zimmer">Zimmer</a></li>
+                <li><a href="#ferienhaus">Ferienhaus</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="ueber-uns">
+        <h2>Über uns</h2>
+        <p>Unser Corte Marzago ist kein Hotel, sondern ein privat geführtes Gästehaus. Bereits 1674 als Kloster erbaut und später als Weingut bewirtschaftet, haben wir es umfunktioniert zum Guesthouse und zur Eventlocation. Zwischen Peschiera del Garda und Valeggio sul Mincio gelegen, nur 20 Minuten von Verona entfernt, ist das Corte Marzago der perfekte Ort für Yoga-Retreats, Workation-Events, Hochzeiten und andere Feierlichkeiten. Oder einfach für einen wunderschönen Urlaub am Gardasee.</p>
     </section>
-    
-    <section>
-        <h2>Seid ihr dabei?</h2>
-        <div class="form-container">
-            <p>Tragt euch ein, um eure Teilnahme zu bestätigen:</p>
-            <form action="https://docs.google.com/forms/d/e/YOUR_GOOGLE_FORM_LINK/formResponse" target="_blank">
-                <input type="text" name="name" placeholder="Euer Name" required>
-                <p>
-                    Teilnahme an der Hochzeit am 25.07.:
-                    <div class="radio-group">
-                        <label><input type="radio" name="hochzeit" value="ja"> Ja</label>
-                        <label><input type="radio" name="hochzeit" value="nein"> Nein</label>
-                    </div>
-                </p>
-                <p>
-                    Teilnahme am Get Together (Pizza Abend) am 24.07.:
-                    <div class="radio-group">
-                        <label><input type="radio" name="pizza_abend" value="ja"> Ja</label>
-                        <label><input type="radio" name="pizza_abend" value="nein"> Nein</label>
-                    </div>
-                </p>
-                <p>
-                    Teilnahme am Brunch am 26.07.:
-                    <div class="radio-group">
-                        <label><input type="radio" name="brunch" value="ja"> Ja</label>
-                        <label><input type="radio" name="brunch" value="nein"> Nein</label>
-                    </div>
-                </p>
-                <button type="submit">Anmelden</button>
-            </form>
-        </div>
+
+    <section id="retreats">
+        <h2>Retreats</h2>
+        <p>Durch die solitäre Lage inmitten der Weinberge und innerhalb einer das Anwesen schützend umgebenden Ringmauer ist das Corte Marzago ein idealer Rückzugsort für Retreats. Egal ob Yoga, BODYART, Pilates oder Groove – bei uns hast du die Möglichkeit, dein eigenes Retreat mit bis zu 20 Personen zu veranstalten.</p>
     </section>
+
+    <section id="exklusiv-miete">
+        <h2>Exklusiv-Miete</h2>
+        <p>Das Corte Marzago bietet Ruhe und Privatsphäre und kann exklusiv gemietet werden. So kannst du mit deiner Familie, deinen Freunden oder deinen Mitarbeitern ungestörte Tage verbringen. Das 1674 erbaute Corte Marzago ist die perfekte Location am Gardasee für den Urlaub mit Familie und Freunden.</p>
+    </section>
+
+    <section id="hochzeiten">
+        <h2>Hochzeiten</h2>
+        <p>Das Corte Marzago ist der ideale Ort für eure romantische Hochzeit am Gardasee. Idyllisch gelegen in den Weinbergen im Süden des Lago di Garda, könnt ihr im Corte Marzago eine wunderschöne Hochzeit in Italien feiern. Der 6000 qm große Garten mit Innenhof, großer Terrasse und Blick in die Weinberge bietet das perfekte Ambiente für euren ganz besonderen Tag.</p>
+    </section>
+
+    <section id="zimmer">
+        <h2>Zimmer</h2>
+        <p>Das Haupthaus des Corte Marzago verfügt über sechs große Zimmer, die zwischen 26 und 88 qm groß sind. Die Zimmer verfügen jeweils über ein Doppelbett oder zwei Queensize-Einzelbetten und je nach Zimmergröße über eine oder zwei komfortable Schlafcouchen. Unsere Zimmergäste können die große Gemeinschaftsküche nutzen, um sich Frühstück oder einen Snack zuzubereiten.</p>
+    </section>
+
+    <section id="ferienhaus">
+        <h2>Ferienhaus Casa Piccola</h2>
+        <p>Wer auf der Suche ist nach einem gemütlichen Ferienhaus am Gardasee, dem bietet unser "Casa Piccola" alles für einen entspannten Urlaub im Süden des Lago di Garda. Durch die Eingangstüre betritt man eine schnucklige Wohnküche mit rustikalem Küchenherd. Neben der Küche findet man im Erdgeschoss auch ein zusätzliches WC.</p>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Unser Corte Marzago findest du nur etwa 7 km vom Gardasee entfernt, zwischen Peschiera del Garda und Valeggio sul Mincio. Wenn du nicht mit dem Auto anreisen möchtest, sondern mit Bus, Bahn oder Flugzeug, holen wir dich am nur 20 Minuten von uns entfernten Hauptbahnhof oder Flughafen von Verona ab.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Corte Marzago. Alle Rechte vorbehalten.</p>
+        <nav>
+            <ul>
+                <li><a href="#impressum">Impressum</a></li>
+                <li><a href="#datenschutz">Datenschutz</a></li>
+                <li><a href="#agb">AGB</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
